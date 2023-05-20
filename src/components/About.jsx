@@ -1,9 +1,14 @@
-// import background from "../assets/images/background.jpg";
-
 const About = () => {
   return (
-    <section id="about">
-      <h2>About</h2>
+    <section className="about-container" id="about">
+      <div className="bio">
+        <img
+          className="_background-image"
+          src="../src/assets/images/background.jpeg"
+        />
+        <div className="_bio-photo"></div>
+        <p>Stuff about me</p>
+      </div>
     </section>
   );
 };
