@@ -5,7 +5,7 @@ const Contact = () => {
     -container section"
       id="contact"
     >
-      Contact
+      <h2>Contact</h2>
     </section>
   );
 };

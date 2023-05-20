@@ -1,8 +1,4 @@
 .about-container {
-  position: relative;
-}
-
-.intro {
   ._background-image {
     background-size: contain;
     width: 100vw;
@@ -12,22 +8,21 @@
     background-image: url("./src/assets/images/bioPhoto.jpg");
     background-size: cover;
     position: absolute;
-    top: 4%;
-    left: 4%;
+    top: 24%;
+    left: 1.5%;
     border-radius: 50%;
-    height: 95px;
-    width: 95px;
+    height: 130px;
+    width: 130px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
 
+  ._bio-text:first-of-type {
+    padding-top: 40px;
+  }
   ._bio-text {
-    padding: 40px 40px 0 40px;
+    padding: 15px 40px 0 40px;
     margin-bottom: 5px;
     line-height: 1.5;
-  }
-
-  :last-of-type {
-    padding-top: 15px;
   }
 }
