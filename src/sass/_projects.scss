@@ -1,0 +1,33 @@
+.project-container {
+  text-align: center;
+  color: rgb(86, 82, 82);
+  margin: 40px 0;
+  ._project-images {
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+  ._project-links {
+    margin-top: 1rem;
+  }
+  & a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #e29578;
+    font-weight: bold;
+    border: 1px solid #e29578;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  & a:first-of-type {
+    margin-right: 5%;
+  }
+
+  & p {
+    margin-top: 0.5rem;
+  }
+}
+
+.project-container:first-of-type {
+  margin-top: 0;
+}
