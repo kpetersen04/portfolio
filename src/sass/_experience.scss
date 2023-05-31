@@ -2,20 +2,39 @@
   padding-left: 35px;
 }
 
-.job-container {
-  color: rgb(86, 82, 82);
+// .job-container {
+//   border: 1px solid blue;
+// }
+
+.experience-heading-container {
+  display: flex;
+
+  & img {
+    margin: 0;
+    width: 15%;
+  }
   ._business {
     font-size: 1.5em;
+    margin-left: 5px;
   }
+}
+
+.job-container {
+  color: rgb(86, 82, 82);
+  margin: 20px 0;
+
   ._job-name {
-    font-size: 1.3em;
+    font-size: 1.2em;
+    margin: 0 0 3px 0;
   }
 
   ._date {
-    font-size: 1.1em;
+    font-size: 1em;
+    margin-bottom: 5px;
   }
 
   ._description {
-    font-size: 1em;
+    font-size: 0.95em;
+    margin-top: 15px;
   }
 }
