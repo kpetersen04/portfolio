@@ -1,6 +1,6 @@
 .header-container {
   padding: 20px;
-  //   margin-bottom: 20px;
+  background-color: #006d77;
 
   & nav {
     padding: none;
@@ -14,5 +14,7 @@
 
   & a {
     text-decoration: none;
+    color: white;
+    cursor: pointer;
   }
 }

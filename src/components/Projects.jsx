@@ -1,7 +1,7 @@
 const Projects = () => {
   return (
     <section className="projects-container section" id="projects">
-      Projects
+      <h2>Projects</h2>
     </section>
   );
 };

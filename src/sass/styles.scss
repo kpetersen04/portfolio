@@ -1,5 +1,7 @@
 @import "./_header.scss";
-@import "./about.scss";
+@import "./_about.scss";
+@import "./_techSkills";
+@import "./_experience";
 
 .section {
   margin-bottom: 20px;
@@ -18,4 +20,14 @@
 .footer {
   font-size: 15px;
   text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  color: #006d77;
+}
+
+h3 {
+  padding: 5px 0;
 }
