@@ -1,25 +1,53 @@
 .header-container {
-  padding: 20px;
+  padding: 22px 0;
   background-color: #006d77;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
   z-index: 998;
 
-  & nav {
-    padding: none;
-  }
-
-  & ul {
+  .menu {
     display: flex;
     list-style: none;
-    padding-inline-start: 0;
+    justify-content: flex-start;
+    padding-left: 15px;
+    font-size: 13px;
+  }
+
+  .about {
+    margin: 0;
+    // width: 10%;
   }
 
   & a {
     text-decoration: none;
     color: white;
     cursor: pointer;
+    margin-right: 15px;
   }
+}
+
+.core-header {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  margin: 0;
+}
+
+@media (min-width: 500px) {
+  .header-container {
+    .menu {
+      font-size: 16px;
+    }
+    .about {
+      width: 20%;
+    }
+    & a {
+      margin-right: 0;
+    }
+  }
+}
+.core-header {
+  min-width: 50%;
 }
