@@ -31,3 +31,31 @@
 .project-container:first-of-type {
   margin-top: 0;
 }
+
+@media (min-width: 800px) {
+  .project-container {
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .project-container {
+    max-width: 90%;
+    & p {
+      max-width: 80%;
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .project-container {
+    max-width: 80%;
+    & p {
+      max-width: 70%;
+      font-size: 18px;
+    }
+  }
+}

@@ -3,7 +3,7 @@ const TechSkills = () => {
     <section className="skills section" id="skillsList">
       <h2>Tech Skills</h2>
       <h3>Languages</h3>
-      <div className="all-skills-container">
+      <div className="all-skills-container languages">
         <div className="skills-icon-container">
           <i className="_icon devicon-javascript-plain"></i>
           <p className="_text text">JavaScript</p>

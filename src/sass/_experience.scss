@@ -2,16 +2,13 @@
   padding-left: 35px;
 }
 
-// .job-container {
-//   border: 1px solid blue;
-// }
-
 .experience-heading-container {
   display: flex;
 
   & img {
     margin: 0;
     width: 15%;
+    max-width: 55px;
   }
   ._business {
     font-size: 1.5em;
@@ -28,6 +25,10 @@
     margin: 0 0 3px 0;
   }
 
+  & h3 {
+    color: rgb(86, 82, 82);
+  }
+
   ._date {
     font-size: 1em;
     margin-bottom: 5px;
@@ -36,5 +37,25 @@
   ._description {
     font-size: 0.95em;
     margin-top: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .experience-heading-container {
+    ._business {
+      font-size: 1.5em;
+    }
+  }
+  .job-container {
+    ._job-name {
+      font-size: 1.4em;
+    }
+    ._date {
+      font-size: 1.1em;
+    }
+
+    ._description {
+      font-size: 1em;
+    }
   }
 }

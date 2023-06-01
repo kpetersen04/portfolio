@@ -1,29 +1,81 @@
+.images-header {
+  padding-top: 58px;
+}
+
 .about-container {
-  margin-top: 58px;
+  ._bio-text:first-of-type {
+    padding-top: 40px;
+  }
+  ._bio-text {
+    margin-bottom: 5px;
+    line-height: 1.5;
+  }
+}
+
+.profile-container {
+  position: relative;
+  width: 100vw;
   ._background-image {
-    background-size: contain;
+    background-image: url("../src/assets/images/background.jpeg");
+    background-size: cover;
+    background-position: center;
     width: 100vw;
+    min-height: 275px;
   }
 
   ._bio-photo {
     background-image: url("./src/assets/images/bioPhoto.jpg");
     background-size: cover;
     position: absolute;
-    top: 24%;
-    left: 1.5%;
+    bottom: -13%;
+    left: 80px;
+    transform: translate(-50%);
     border-radius: 50%;
     height: 130px;
     width: 130px;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
       rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   }
+}
 
-  ._bio-text:first-of-type {
-    padding-top: 40px;
+@media (min-width: 700px) {
+  .profile-container {
+    ._background-image {
+      min-height: 300px;
+    }
+    ._bio-photo {
+      bottom: -10%;
+      left: 95px;
+      height: 150px;
+      width: 150px;
+    }
   }
-  ._bio-text {
-    padding: 15px 40px 0 40px;
-    margin-bottom: 5px;
-    line-height: 1.5;
+}
+
+@media (min-width: 1000px) {
+  .profile-container {
+    ._background-image {
+      min-height: 390px;
+    }
+    ._bio-photo {
+      bottom: -7%;
+      left: 135px;
+      height: 200px;
+      width: 200px;
+    }
+  }
+}
+
+@media (min-width: 1500px) {
+  .profile-container {
+    ._background-image {
+      min-height: 450px;
+    }
+    ._bio-photo {
+      bottom: -9%;
+      left: 300px;
+      height: 200px;
+      width: 200px;
+    }
   }
 }

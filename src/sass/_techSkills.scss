@@ -1,12 +1,19 @@
 .all-skills-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  // justify-content: flex-start;
 }
+
+// .languages {
+//   justify-content: flex-start;
+// }
 
 .skills-icon-container {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 15px;
+  margin: 0;
   ._icon,
   ._text {
     color: #e29578;
@@ -15,5 +22,19 @@
 
   ._icon {
     font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .languages {
+    justify-content: flex-start;
+  }
+
+  .skills-icon-container {
+    padding: 20px;
+    font-size: 4.5rem;
+    ._text {
+      font-size: 15px;
+    }
   }
 }
