@@ -21,7 +21,7 @@ const Experience = () => {
       </div>
       <div className="job-container">
         <div className="experience-heading-container">
-          <img src="./src/assets/images/wiseLogo.png" />
+          <img src="/assets/images/wiseLogo.png" />
           <h3 className="_business">Wise</h3>
         </div>
         <p className="_job-name">WiseWomenCode</p>
@@ -44,7 +44,7 @@ const Experience = () => {
       </div>
       <div className="job-container">
         <div className="experience-heading-container">
-          <img src="./src/assets/images/uolLogo.png" />
+          <img src="/assets/images/uolLogo.png" />
           <h3 className="_business">University of London</h3>
         </div>
         <p className="_job-name">Laws Manager</p>

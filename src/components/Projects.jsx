@@ -3,10 +3,7 @@ const Projects = () => {
     <section className="projects-container section" id="projects">
       <h2>Projects</h2>
       <div className="project-container">
-        <img
-          className="_project-images"
-          src="./src/assets/images/homePageP4.png"
-        />
+        <img className="_project-images" src="/assets/images/homePageP4.png" />
         <h3 className="_project-title">Wild Swimming</h3>
         <p>
           JavaScript - React - Sass - Bootstrap - Cloudinary - Python - Django -
@@ -38,10 +35,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="project-container">
-        <img
-          className="_project-images"
-          src="./src/assets/images/homePageP3.png"
-        />
+        <img className="_project-images" src="/assets/images/homePageP3.png" />
         <h3 className="_project-title">Design My Trip</h3>
         <p>
           JavaScript - React - Sass - Bootstrap - Node.js - Express.js - JWT -

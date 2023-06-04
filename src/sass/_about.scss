@@ -16,7 +16,7 @@
   position: relative;
   width: 100vw;
   ._background-image {
-    background-image: url("../src/assets/images/background.jpeg");
+    background-image: url("/assets/images/background.jpeg");
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -24,7 +24,7 @@
   }
 
   ._bio-photo {
-    background-image: url("./src/assets/images/bioPhoto.jpg");
+    background-image: url("/assets/images/bioPhoto.jpg");
     background-size: cover;
     position: absolute;
     bottom: -13%;
