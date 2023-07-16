@@ -21,7 +21,7 @@ const Contact = () => {
         >
           <i className="_icon devicon-linkedin-plain"></i>
         </a>
-        <a href="mailto:kpetersen@elon.edu">
+        <a href="mailto:contact.kcpetersen@gmail.com">
           <i className="_icon _email bx bx-envelope" type="solid"></i>
         </a>
       </div>
