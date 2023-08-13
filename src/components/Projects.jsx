@@ -41,7 +41,7 @@ const Projects = () => {
           JavaScript - React - Sass - Bootstrap - Node.js - Express.js - JWT -
           MongoDB{" "}
         </p>
-        <p className="_project-type"> Independent Project </p>
+        <p className="_project-type"> Group Project </p>
         <p className=" _description">
           A a full stack MERN application with CRUD functionality. A travel
           planning website that allows users to add and delete activities to

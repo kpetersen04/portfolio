@@ -7,11 +7,11 @@
 
   & img {
     margin: 0;
-    width: 15%;
-    max-width: 55px;
+    margin-bottom: 2px;
+    max-width: 45px;
   }
   ._business {
-    font-size: 1.5em;
+    font-size: 1.49em;
     margin-left: 5px;
   }
 }
@@ -21,7 +21,7 @@
   margin: 20px 0;
 
   ._job-name {
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin: 0 0 3px 0;
   }
 
@@ -30,13 +30,12 @@
   }
 
   ._date {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 5px;
   }
 
   ._description {
-    font-size: 0.95em;
-    margin-top: 15px;
+    font-size: 1.1em;
   }
 }
 

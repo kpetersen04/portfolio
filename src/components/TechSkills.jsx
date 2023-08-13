@@ -12,6 +12,10 @@ const TechSkills = () => {
           <i className="_icon devicon-python-plain"></i>
           <p className="_text text">Python</p>
         </div>
+        <div className="skills-icon-container">
+          <i className="_icon devicon-kotlin-plain"></i>
+          <p className="_text text">Kotlin</p>
+        </div>
       </div>
       <h3>Development</h3>
       <div className="all-skills-container">
@@ -63,7 +67,10 @@ const TechSkills = () => {
           <i className="_icon devicon-git-plain"></i>
           <p className="_text text">Git</p>
         </div>
-
+        <div className="skills-icon-container">
+          <i className=" _icon devicon-gitlab-plain"></i>
+          <p className="_text text">GitLab</p>
+        </div>
         <div className="skills-icon-container">
           <i className=" _icon devicon-github-original"></i>
           <p className="_text text">GitHub</p>
@@ -77,8 +84,16 @@ const TechSkills = () => {
           <p className="_text text">VS Code</p>
         </div>
         <div className="skills-icon-container">
+          <i className=" _icon devicon-androidstudio-plain"></i>
+          <p className="_text text">Android Studio</p>
+        </div>
+        <div className="skills-icon-container">
           <i className=" _icon devicon-jira-plain"></i>
           <p className="_text text">Jira</p>
+        </div>
+        <div className="skills-icon-container">
+          <i className=" _icon devicon-confluence-original"></i>
+          <p className="_text text">Confluence</p>
         </div>
       </div>
     </section>
